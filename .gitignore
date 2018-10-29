@@ -1,3 +1,4 @@
 ./emulator/vm
 ./emulator/kernel
 ./emulator/raspbian
+./tmp
