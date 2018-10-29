@@ -1,5 +1,9 @@
 # Raspberry Pi Stuff
 
+`build_emulation_env.sh` will setup the latest rasbpian qemu compatable vm
+
+once it's finished access the vm with `run_rpi.sh`
+
 yummy.
 
 # Sources
