@@ -6,7 +6,7 @@ RASPBIAN_LITE_URL="http://director.downloads.raspberrypi.org/raspbian_lite/image
 RESIZE_AMMOUNT="6G"
 
 # Tools
-sudo -y apt-get install qemu-system zip unzip
+sudo apt-get -y install qemu-system zip unzip
 
 # Kernel
 mkdir -p "$WORKING_DIR/kernel"
