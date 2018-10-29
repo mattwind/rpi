@@ -2,12 +2,13 @@
 
 KERNEL="./kernel/kernel-qemu-4.14.50-stretch"
 VM="./vm/raspbian.qcow"
+MEMORY=256
 
 sudo qemu-system-arm \
 -kernel "$KERNEL" \
 -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw" \
 -hda "$VM" \
--cpu arm1176 -m 256 \
+-cpu arm1176 -m $MEMORY \
 -M versatilepb \
 -no-reboot \
 -serial stdio \
