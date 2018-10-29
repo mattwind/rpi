@@ -6,8 +6,6 @@
 
 once it's finished access the vm with `run_rpi.sh`
 
-yummy.
-
 ### sources
 
 https://downloads.raspberrypi.org/raspbian/images/?C=M;O=D
