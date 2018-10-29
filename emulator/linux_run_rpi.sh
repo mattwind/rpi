@@ -13,4 +13,4 @@ sudo qemu-system-arm \
 -no-reboot \
 -serial stdio \
 -net nic -net user \
--net tap,ifname=vnet0,script=no,downscript=no
+-net tap,ifname=vnet0,script=no,downscript=no,hostfwd=tcp::10022-:22
