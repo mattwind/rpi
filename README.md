@@ -16,6 +16,8 @@ after accessing the pi console, run `raspi-config` and under interfacing options
 
 connect from your local machine `ssh pi@localhost -p10022`
 
+https://github.com/mattwind/rpi/blob/master/raspi-config.png
+
 ### sources
 
 https://qemu.weilnetz.de/w64/2018/qemu-w64-setup-20180815.exe
