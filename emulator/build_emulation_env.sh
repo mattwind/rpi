@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 WORKING_DIR=`pwd`
 KERNEL_URL="https://raw.githubusercontent.com/dhruvvyas90/qemu-rpi-kernel/master/kernel-qemu-4.4.34-jessie"
 RASPBIAN_LITE_URL="http://director.downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-10-11/2018-10-09-raspbian-stretch-lite.zip"
