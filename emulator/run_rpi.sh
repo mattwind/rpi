@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KERNEL="./kernel/kernel-qemu-4.14.50-stretch"
+KERNEL="./kernel/kernel-qemu-4.4.34-jessie"
 VM="./vm/raspbian.qcow"
 MEMORY=256
 
