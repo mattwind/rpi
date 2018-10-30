@@ -1,5 +1,7 @@
 # Raspberry Pi Emulation
 
+![alt text](https://github.com/mattwind/rpi/blob/master/rpi.png "rpi")
+
 ### Linux (Debian)
 
 Run the build script to setup the latest rasbpian qemu compatable vm
