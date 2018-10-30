@@ -26,7 +26,9 @@ sudo reboot
 
 ### Increase Performance
 
-With the `raspi-confi` script you can select Option 6 to set overclock mode to 1Ghz "trubo". You can also increase the swap space.
+Overclock with the `raspi-confi` script, select Option 6. 1Ghz "trubo".
+
+Increasing the swap space memory.
 
 `sudo sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=1024/' /etc/dphys-swapfile`
 
