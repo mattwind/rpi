@@ -24,6 +24,14 @@ sudo ~/raspi-config --expand-rootfs
 sudo reboot
 ```
 
+### Increase Performance
+
+With the `raspi-confi` script you can select Option 6 to set overclock mode to 1Ghz "trubo". You can also increase the swap space.
+
+`sudo sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=1024/' /etc/dphys-swapfile`
+
+Reboot for changes to take.
+
 ### SSH Access
 
 after accessing the pi console, run `raspi-config` and under interfacing options enable ssh
