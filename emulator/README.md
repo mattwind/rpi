@@ -42,6 +42,12 @@ connect from your local machine `ssh pi@localhost -p10022`
 
 ![alt text](https://github.com/mattwind/rpi/blob/master/raspi-config.png "raspi-config")
 
+### Conversion
+
+You can convert the qcow2 image back to raw format with the following command.
+
+`qemu-img convert -f qcow2 -O raw raspbian.qcow raspbian.img`
+
 ### Sources
 
 https://qemu.weilnetz.de/w64/2018/qemu-w64-setup-20180815.exe
