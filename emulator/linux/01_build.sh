@@ -31,4 +31,4 @@ qemu-img convert -f raw -O qcow2 "$WORKING_DIR/raspbian/2018-10-09-raspbian-stre
 qemu-img resize "$WORKING_DIR/vm/raspbian.qcow" +$RESIZE_AMOUNT
 
 echo
-echo "Finished setup. Try it out, bash run_rpi.sh"
+echo "Finished setup. Try it out by running the next script."
