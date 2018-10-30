@@ -1,6 +1,6 @@
 @echo off
 
-REM SET RESIZE=6G
+SET RESIZE=6G
 
 if exist "raspbian\2018-10-09-raspbian-stretch-lite.img" (
   echo Converting...
