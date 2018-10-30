@@ -11,6 +11,7 @@ sudo qemu-system-arm \
 -cpu arm1176 -m $MEMORY \
 -M versatilepb \
 -no-reboot \
+-nographic -vnc :0 \
 -serial stdio \
 -net nic -net user \
 -net tap,ifname=vnet0,script=no,downscript=no,hostfwd=tcp::10022-:22
