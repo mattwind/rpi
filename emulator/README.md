@@ -12,6 +12,10 @@ Run the build script to setup the latest rasbpian qemu compatable vm
 2. add qemu installation to your path 
 3. run the build script
 
+### VNC
+
+You can access Qemu built in VNC service after you run the emulator. Launch your local vnc viewer and connect to `localhost::5900`
+
 ### Expanding Partition
 
 The raspi-config resize feature won't work correctly when using Qemu, a bit of modification is required.
