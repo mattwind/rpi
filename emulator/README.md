@@ -2,9 +2,7 @@
 
 ### Linux (Debian)
 
-This will setup the latest rasbpian qemu compatable vm
-
-once it's finished access the vm one of the run scripts.
+Run the build script to setup the latest rasbpian qemu compatable vm
 
 ### Windows 10
 
