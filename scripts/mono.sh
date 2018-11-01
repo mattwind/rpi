@@ -10,5 +10,4 @@ sudo apt install apt-transport-https dirmngr
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys $KEY
 echo "deb $REPO/$OS $SNAPSHOT main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
 sudo apt update
-sudo apt-get install mono-complete=$VERSION
-
+sudo apt-get install -y mono-complete=$VERSION
